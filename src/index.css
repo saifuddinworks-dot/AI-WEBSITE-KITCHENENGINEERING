@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-olive-900: #1C2215;
+  --color-olive-800: #2C3520;
+  --color-olive: #3E4A2E;
+  --color-olive-light: #52633C;
+  --color-charcoal: #20241E;
+  --color-charcoal-dark: #151814;
+  --color-charcoal-light: #2C3229;
+  --color-cream: #ECE5D2;
+  --color-cream-dark: #DDD4BD;
+  --color-ivory: #F5F1E5;
+  --color-steel: #8E959B;
+  --color-steel-light: #CCD3DA;
+  --color-steel-dark: #4A5159;
+}
+
+@layer base {
+  html {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #ECE5D2;
+    color: #20241E;
+    overflow-x: hidden;
+    max-width: 100%;
+    position: relative;
+  }
+
+  #root {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+}
+
+/* Custom architectural grid background pattern */
+.bg-arch-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(62, 74, 46, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(62, 74, 46, 0.05) 1px, transparent 1px);
+}
+
+.bg-arch-grid-dark {
+  background-size: 36px 36px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
+
+/* Brushed stainless steel sheen */
+.steel-sheen {
+  background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,0.15) 100%);
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
+::-webkit-scrollbar:horizontal {
+  display: none;
+  height: 0px;
+}
+::-webkit-scrollbar-track {
+  background: #ECE5D2;
+}
+::-webkit-scrollbar-thumb {
+  background: #3E4A2E;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #20241E;
+}
+

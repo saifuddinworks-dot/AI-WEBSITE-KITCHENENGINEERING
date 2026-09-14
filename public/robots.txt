@@ -1,0 +1,38 @@
+# robots.txt for KITCHEN ENGINEERING (kitchenengineering.com.pk)
+# Verified Commercial Kitchen Engineering & Industrial Equipment Manufacturer (Pakistan)
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/private
+
+# Explicitly welcome AI & Generative Search Engine Crawlers (AI SEO / GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Canonical XML Sitemap
+Sitemap: https://kitchenengineering.com.pk/sitemap.xml

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Homepage -->
+  <url>
+    <loc>https://kitchenengineering.com.pk/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Product Catalog -->
+  <url>
+    <loc>https://kitchenengineering.com.pk/#products</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Commercial Cooking Equipment -->
+  <url>
+    <loc>https://kitchenengineering.com.pk/#cooking-equipment</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Commercial Refrigeration & Cold Rooms -->
+  <url>
+    <loc>https://kitchenengineering.com.pk/#commercial-refrigeration</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Custom Stainless Steel 304 Fabrication -->
+  <url>
+    <loc>https://kitchenengineering.com.pk/#fabrication</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Commercial Ventilation & Exhaust Hoods -->
+  <url>
+    <loc>https://kitchenengineering.com.pk/#ventilation</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Bakery & Pizza Equipment -->
+  <url>
+    <loc>https://kitchenengineering.com.pk/#bakery-pizza-equipment</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Commercial Coffee & Barista Solutions -->
+  <url>
+    <loc>https://kitchenengineering.com.pk/#coffee</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Turnkey Projects & Case Studies -->
+  <url>
+    <loc>https://kitchenengineering.com.pk/#projects</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Engineering Services & 24/7 AMC Contracts -->
+  <url>
+    <loc>https://kitchenengineering.com.pk/#services</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Request Instant B2B Quote -->
+  <url>
+    <loc>https://kitchenengineering.com.pk/#quote</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>
